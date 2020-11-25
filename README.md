@@ -1,8 +1,10 @@
 # HTA in R Manifesto
 
 This document offers principles, best practice and guidance on building HTA models in R which are in the main generalisable to other programming implementations.
+This has been touched on in e.g. [2].
 
 This is a work in progress, living document.
+In the same way fo standardising the building of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
 
 1. Standardised input and output data formats
    * data package?
@@ -36,6 +38,8 @@ They make suggestions like:
   * mean of the input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined mean of the given input parameter. 
   * input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined distribution of the given input parameter. 
 
+Testing validity has been discussed in [3].
+
 ### Consistent style
 
 An agreed specific submission style would make things easier to interrogate and combine.
@@ -45,3 +49,8 @@ An agreed specific submission style would make things easier to interrogate and 
 
 [1]: Dasbach, E.J., Elbasha, E.H. Verification of Decision-Analytic Models for Health Economic Evaluations: An Overview. PharmacoEconomics 35, 673–683 (2017). https://doi.org/10.1007/s40273-017-0508-2
 
+[2]: Alarid-Escudero, F., Krijkamp, E. M., Pechlivanoglou, P., Jalal, H., Kao, S. Y. Z., Yang, A., & Enns, E. A. (2019). A Need for Change! A Coding Framework for Improving Transparency in Decision Modeling. PharmacoEconomics, 37(11), 1329–1339. https://doi.org/10.1007/s40273-019-00837-x
+
+[3]: McCabe, C., & Dixon, S. (2000). Testing the validity of cost-effectiveness models. PharmacoEconomics, 17(5), 501–513. https://doi.org/10.2165/00019053-200017050-00007
+
+[4]: Husereau, D., Drummond, M., Petrou, S., Carswell, C., Moher, D., Greenberg, D., … Loder, E. (2013). Consolidated Health Economic Evaluation Reporting Standards (CHEERS) statement. European Journal of Health Economics, 14(3), 367–372. https://doi.org/10.1007/s10198-013-0471-6
