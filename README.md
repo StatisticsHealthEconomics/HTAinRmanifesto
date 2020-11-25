@@ -5,11 +5,11 @@ This document offers principles, best practice and guidance on building HTA mode
 This is a work in progress, living document.
 
 1. Standardised input and output data formats
-  * data package?
+   * data package?
 2. Reproducability
-  * including standardised record of where data and other modelling information can be found
-3. Testing: an outline of the test expected to pass
-  * 
+   * including standardised record of where data and other modelling information can be found
+3. Testing: an outline of the tests expected to pass
+   * TDD?
 4. Consistent style 
 
 ### Standardised input and output data formats
