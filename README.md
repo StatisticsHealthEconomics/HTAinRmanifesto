@@ -20,13 +20,28 @@ This is a work in progress, living document.
 
 You don't have to understand all the code to know if works so you don't need to be an expert R programmer. Just like in industry, the quality of the code is determined by the testing. I think that all you need is to be sure that it passed a defined set of tests. I thought this would be a neat paper but just Googled and found this which is basically the same:
 
-https://link.springer.com/article/10.1007/s40273-017-0508-2?shared-article-renderer
+[https://link.springer.com/article/10.1007/s40273-017-0508-2?shared-article-renderer][1]
 
-They've made a start on what tests to have here:
-https://github.com/healthEconomicModelTests/Inventory-of-Health-Economic-Model-Tests/blob/master/favoriteExploratoryTestsForHealthEconomicModels.Rmd
+They make suggestiong like:
 
-I think it would be great to properly do this and include NICE or whoever in it. If the NICE guidance say that all models submitted in R must pass their tests that would be cool.
+* Life expectancy test sets
+  * the discount rate for QALYs to zero 
+  * all dis-utilities to zero, and 
+  * disease-specific mortality rates to the all-cause mortality rates.  
+* Quality-Adjusted Life Expectancy  
+* Total Undiscounted Intervention Costs 
+* Changes in Intervention Cost   
+* Cohort Size
+  * total remains constant
+  * number of patients in each health state in all cycles is always greater than or equal to zero.
+* Sample PSA Input Mean 
+  * mean of the input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined mean of the given input parameter. 
+  * input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined distribution of the given input parameter. 
 
 ### Consistent style
 
 An agreed specific submission style would make things easier to interrogate and combine.
+
+
+[1]: Dasbach, E.J., Elbasha, E.H. Verification of Decision-Analytic Models for Health Economic Evaluations: An Overview. PharmacoEconomics 35, 673–683 (2017). https://doi.org/10.1007/s40273-017-0508-2
+
