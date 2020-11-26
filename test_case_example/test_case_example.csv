@@ -1,0 +1,3 @@
+Test Case ID,Test Scenario,Test Case,Test Data,Expected Results,Actual Results,Pass/Fail,Comments
+T01,QALY calcs,discount rate = 1,test_data,All QALYS = 0,,,
+T02,QALY calcs,discount rate = 0,test_data,QALYS = LE,,,
