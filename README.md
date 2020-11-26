@@ -1,25 +1,33 @@
 # HTA in R Manifesto
 
-This document offers principles, best practice and guidance on building HTA models in R which are in the main generalisable to other programming implementations.
+This manifesto is to foster a common understanding and expression of health economic methods in R.
+By using common terminology, data structures and procedural approaches we hope to enhance comprehension and transparency of models.
+In turn, this will support greater reliability, efficiency and trust.
+These ideas are in the main generalisable to other programming implementations.
 This has been touched on in e.g. [2].
 
 This is a work in progress, living document.
 In the same way fo standardising the building of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
 
-1. Standardised input and output data formats
+1. Consistent style 
+2. Standardised input and output data formats
    * data package?
-2. Reproducability
+3. Reproducability
    * including standardised record of where data and other modelling information can be found
-3. Testing: an outline of the tests expected to pass
+4. Testing: an outline of the tests expected to pass
    * TDD?
-4. Consistent style 
+
+
+### Consistent style
+
+An agreed specific submission style, e.g. for all models written in R submitted to NICE, would make things easier to interrogate and combine.
 
 ### Standardised input and output data formats
 
 A [data package](https://specs.frictionlessdata.io/#overview) is a simple container format used to describe and package a collection of data (a dataset).
 Some example can be found [here](https://github.com/datasets).
 
-An example schema for cost-effectiveness model output could be something like [this](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/ce_output_data_schema/ce_output_data_schema_draft.txt)
+An example schema for cost-effectiveness model output could be something like [this](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/ce_output_data_schema/ce_output_data_schema_draft.txt).
 
 ### Reproducability
 
@@ -45,14 +53,9 @@ They make suggestions like:
 
 Testing validity has been discussed in [3].
 
-The collection of test are recorded in a document similar to [this example](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/test_case_example.csv)
+The collection of test are recorded in a document similar to [this example](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/test_case_example.csv).
 
-Then these are translated to actual tests in the target language, such as the `testthat` packages examples [here](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/testthat_example.R)
-
-
-### Consistent style
-
-An agreed specific submission style, e.g. for all models written in R submitted to NICE, would make things easier to interrogate and combine.
+Then these are translated to actual tests in the target language, such as the `testthat` packages examples [here](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/testthat_example.R).
 
 
 ### References
