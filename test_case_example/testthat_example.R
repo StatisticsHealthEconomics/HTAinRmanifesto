@@ -13,7 +13,7 @@ test_that("QALY calcs", {
 	# T02
 	test_run <- run_model(test_data, discount = 0)
 	expect_equal(get_qalys(test_run),
-				 get_le(test_run))
+		     get_le(test_run))
 })
 
 
