@@ -10,9 +10,8 @@ This is a work in progress, living document.
 In the same way fo standardising the building of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
 
 1. Consistent style 
-2. Standardised input and output data formats
-   * data package?
-3. Reproducability
+2. Data
+   * Standardised input and output data formats
    * including standardised record of where data and other modelling information can be found
 4. Testing: an outline of the tests expected to pass
    * TDD?
@@ -22,14 +21,15 @@ In the same way fo standardising the building of model using the CHEERS checklis
 
 An agreed specific submission style, e.g. for all models written in R submitted to NICE, would make things easier to interrogate and combine.
 
-### Standardised input and output data formats
+### Data
+#### Standardised input and output data formats
 
 A [data package](https://specs.frictionlessdata.io/#overview) is a simple container format used to describe and package a collection of data (a dataset).
 Some example can be found [here](https://github.com/datasets).
 
 An example schema for cost-effectiveness model output could be something like [this](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/ce_output_data_schema/ce_output_data_schema_draft.txt).
 
-### Reproducability
+#### Recording and reproducability
 
 ### Testing
 
