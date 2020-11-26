@@ -52,7 +52,7 @@ Then these are translated to actual tests in the target language, such as the `t
 
 ### Consistent style
 
-An agreed specific submission style would make things easier to interrogate and combine.
+An agreed specific submission style, e.g. for all models written in R submitted to NICE, would make things easier to interrogate and combine.
 
 
 ### References
