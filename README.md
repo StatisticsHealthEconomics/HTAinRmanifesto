@@ -16,8 +16,8 @@ In the same way fo standardising the building of model using the CHEERS checklis
 
 ### Standardised input and output data formats
 
-[data package](https://specs.frictionlessdata.io/#overview)
-[data package examples](https://github.com/datasets)
+A [data package](https://specs.frictionlessdata.io/#overview) is a simple container format used to describe and package a collection of data (a dataset).
+Some example can be found [here](https://github.com/datasets).
 
 An example schema for cost-effectiveness model output could be something like [this](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/ce_output_data_schema/ce_output_data_schema_draft.txt)
 
@@ -47,7 +47,7 @@ Testing validity has been discussed in [3].
 
 The collection of test are recorded in a document similar to [this example](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/test_case_example.csv)
 
-Then these are translated to actual tests in the target language, such as the `testthat` packages examples [here](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/test_case_example.csv)
+Then these are translated to actual tests in the target language, such as the `testthat` packages examples [here](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/testthat_example.R)
 
 
 ### Consistent style
