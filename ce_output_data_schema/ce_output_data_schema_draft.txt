@@ -1,0 +1,39 @@
+name	ce data						
+	source						
+		reference					
+			url	www			
+			title				
+			author				
+			journal				
+		GitHub					
+		software	"R, BUGS"				
+							
+	format	R list					
+	simulations						
+		n	100				
+		parameters					
+			name	test a			
+			value				
+			distn				
+				name	normal		
+				parameters	"0, 1"		
+							
+	schema						
+		fields					
+			name	cost			
+				type	numeric		
+				unit	£		
+				transform	log		
+					fields		
+						name	status-quo
+						name	new test
+				ref group	status-quo		
+							
+			name	health			
+				type	numeric		
+				unit	QALY		
+				limits	0 - 1		
+					fields		
+						name	status-quo
+						name	new test
+				ref group	status-quo		
