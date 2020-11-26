@@ -16,6 +16,11 @@ In the same way fo standardising the building of model using the CHEERS checklis
 
 ### Standardised input and output data formats
 
+[data package](https://specs.frictionlessdata.io/#overview)
+[data package examples](https://github.com/datasets)
+
+An example schema for cost-effectiveness model output could be something like [this](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/ce_output_data_schema/ce_output_data_schema_draft.txt)
+
 ### Reproducability
 
 ### Testing
@@ -39,6 +44,11 @@ They make suggestions like:
   * input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined distribution of the given input parameter. 
 
 Testing validity has been discussed in [3].
+
+The collection of test are recorded in a document similar to [this example](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/test_case_example.csv)
+
+Then these are translated to actual tests in the target language, such as the `testthat` packages examples [here](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/test_case_example.csv)
+
 
 ### Consistent style
 
