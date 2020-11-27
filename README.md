@@ -8,10 +8,10 @@ This has been touched on in e.g. [2].
 In the same way fo standardising the building of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
 
 
-This is a work in progress, living document. Any suggestions or comments please post and [issue](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/issues).
+This is a work in progress, living document. Any suggestions or comments please post an [issue](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/issues).
 
 
-We are essentially look for a sensible consistency in three areas:
+We are essentially looking for a sensible consistency in three areas:
 
 1. Consistent coding style 
 2. Data
