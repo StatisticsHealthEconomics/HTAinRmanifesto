@@ -5,16 +5,19 @@ By using common terminology, data structures and procedural approaches we hope t
 In turn, this will support greater reliability, efficiency and trust.
 These ideas are in the main generalisable to other programming implementations.
 This has been touched on in e.g. [2].
-
-This is a work in progress, living document.
 In the same way fo standardising the building of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
 
-1. Consistent style 
+
+This is a work in progress, living document. Any suggestions or comments please post and [issue](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/issues).
+
+
+We are essentially look for a sensible consistency in three areas:
+
+1. Consistent coding style 
 2. Data
    * Standardised input and output data formats
-   * including standardised record of where data and other modelling information can be found
-4. Testing: an outline of the tests expected to pass
-   * TDD?
+   * Standardised records of where data and other modelling information can be found
+4. Testing
 
 
 ### Consistent style
