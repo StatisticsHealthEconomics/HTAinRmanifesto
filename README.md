@@ -56,10 +56,10 @@ They make suggestions like:
 * Changes in Intervention Cost   
 * Cohort Size
   * total remains constant
-  * number of patients in each health state in all cycles is always greater than or equal to zero.
+  * number of patients in each health state in all cycles >=0.
 * Sample PSA Input Mean 
-  * mean of the input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined mean of the given input parameter. 
-  * input generated for the probabilistic sensitivity analysis (PSA) represents the pre-defined distribution of the given input parameter. 
+  * mean of the input generated for PSA represents the pre-defined mean. 
+  * input generated for PSA represents the pre-defined distribution. 
 
 Testing validity has been discussed in [3].
 
