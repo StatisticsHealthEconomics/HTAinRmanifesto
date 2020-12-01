@@ -13,16 +13,23 @@ This is a work in progress, living document. Any suggestions or comments please 
 
 We are essentially looking for a sensible consistency in three areas:
 
-1. Consistent coding style 
+1. Consistent code 
 2. Data
    * Standardised input and output data formats
    * Standardised records of where data and other modelling information can be found
 4. Testing
 
 
-### Consistent style
+### Consistent code
 
-An agreed specific submission style, e.g. for all models written in R submitted to NICE, would make things easier to interrogate and combine.
+An agreed specific submission _style_, e.g. for all models written in R submitted to NICE, would make things easier to interrogate and combine.
+This is common across code bases and there are lots of examples eg. for the [tidyverse](https://style.tidyverse.org/).
+
+An agreed upon list of packages could provide some assurance of the underlying code. Simply this could be only base R packages or packages submitted to CRAN;
+Or this could be packages that have near 100% code coverage e.g. indicated via CI.
+
+A list of health economics packages that have been triaged or vetted in some way, e.g. like the open-review carried-out by [rOpenSci](https://github.com/ropensci/software-review).
+
 
 ### Data
 #### Standardised input and output data formats
