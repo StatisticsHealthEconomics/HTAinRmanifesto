@@ -10,7 +10,7 @@ In the same way fo standardising the building of model using the CHEERS checklis
 
 This is a work in progress, living document. Any suggestions or comments please post an [issue](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/issues).
 
-Often, on receipt of some new model code, the step taken to interrogate it are something like this
+Often, on receipt of some new model code, the steps taken to interrogate it are something like this
 
 What does it look like? -> Does it run? -> Is it correct?
 
