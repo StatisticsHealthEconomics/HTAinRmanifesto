@@ -12,7 +12,7 @@ This is a work in progress, living document. Any suggestions or comments please 
 
 Often, on receipt of some new model code, the step taken to interrogate it are something like this
 
-What does it look like? :arrow_right: Does it run? :arrow_right: Is it correct?
+What does it look like? -> Does it run? -> Is it correct?
 
 In order to facilitate this process we are essentially looking for a sensible consistency in three areas:
 
