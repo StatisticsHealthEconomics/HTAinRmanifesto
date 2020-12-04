@@ -1,11 +1,12 @@
 # HTA in R Manifesto
 
-This manifesto is to foster a common understanding and expression of health economic methods in R.
+This manifesto is to foster a common understanding and expression of health economic decision analysis models in R.
+Many of these principles apply to general R code but we focus, at least in the first instance, on models designed to address specific questions.
 By using common terminology, data structures and procedural approaches we hope to enhance comprehension and transparency of models.
 In turn, this will support greater reliability, efficiency and trust.
 These ideas are in the main generalisable to other programming implementations.
-This has been touched on in e.g. [2].
-In the same way fo standardising the building of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
+This idea has been touched on in e.g. [2].
+In the same way for standardising the _building_ of model using the CHEERS checklist [4] we would like to standardise the _implementation_ of these models.
 
 
 This is a work in progress, living document. Any suggestions or comments please post an [issue](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/issues).
