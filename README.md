@@ -32,7 +32,8 @@ This is common across code bases and there are lots of examples eg. for the [tid
 An agreed upon list of dependent packages could provide some assurance of the underlying code. Simply this could be only base R packages or packages submitted to [CRAN](https://cran.r-project.org/) or [Bioconductor](https://www.bioconductor.org/);
 Or this could be packages that have near 100% code coverage e.g. indicated via CI.
 
-A list of health economics packages that have been triaged or vetted in some way, e.g. like the open-review carried-out by [rOpenSci](https://github.com/ropensci/software-review).
+A list of health economics packages that with their 'trustworthiness' can be compiled e.g. as started [here](https://github.com/n8thangreen/health_economics_R_packages/blob/master/README.md).
+These could be more formally triaged or vetted in some way, e.g. like the open-review carried-out by [rOpenSci](https://github.com/ropensci/software-review).
 
 
 ### Data
