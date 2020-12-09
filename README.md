@@ -35,6 +35,13 @@ Or this could be packages that have near 100% code coverage e.g. indicated via C
 A list of health economics packages that with their 'trustworthiness' can be compiled e.g. as started [here](https://github.com/n8thangreen/health_economics_R_packages/blob/master/README.md).
 These could be more formally triaged or vetted in some way, e.g. like the open-review carried-out by [rOpenSci](https://github.com/ropensci/software-review).
 
+The package versions used in a model can be listed explicitly in a DESCRIPTION file and collected in `packrat` or `renv`.
+
+There are other readability and clarity of code issues than just the style mentioned above.
+This can include how to comment code and structure folders.
+All functions should be documented.
+The model folders should contain a README. One option is that a template README is provided to be filled-in.
+This would detail how to run the model and other key pieces of information.
 
 ### Data
 #### Standardised input and output data formats
@@ -44,7 +51,7 @@ Some example can be found [here](https://github.com/datasets).
 
 An example schema for cost-effectiveness model output could be something like [this](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/ce_output_data_schema/ce_output_data_schema_draft.txt).
 
-#### Recording and reproducability
+Raw data should not be modified. Changes to the data should be documented and saved as new objects.
 
 ### Testing
 
@@ -54,17 +61,15 @@ They make suggestions like:
 
 * Life expectancy test sets
   * the discount rate for QALYs to zero 
-  * all dis-utilities to zero, and 
+  * all dis-utilities to zero 
   * disease-specific mortality rates to the all-cause mortality rates.  
 * Quality-Adjusted Life Expectancy  
-* Total Undiscounted Intervention Costs 
-* Changes in Intervention Cost   
-* Cohort Size
+* Total undiscounted intervention costs 
+* Changes in intervention cost   
+* Cohort size
   * total remains constant
   * number of patients in each health state in all cycles >=0.
-* Sample PSA Input Mean 
-  * mean of the input generated for PSA represents the pre-defined mean. 
-  * input generated for PSA represents the pre-defined distribution. 
+* Sample PSA input means 
 
 Testing validity has been discussed in [3].
 
@@ -72,6 +77,7 @@ The collection of test are recorded in a document similar to [this example](http
 
 Then these are translated to actual tests in the target language, such as the `testthat` packages examples [here](https://github.com/StatisticsHealthEconomics/HTAinRmanifesto/blob/main/test_case_example/testthat_example.R).
 
+For tests using random numbers the same seed must be used.
 
 ### References
 
