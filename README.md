@@ -34,6 +34,8 @@ Or this could be packages that have near 100% code coverage e.g. indicated via C
 
 A list of health economics packages that with their 'trustworthiness' can be compiled e.g. as started [here](https://github.com/n8thangreen/health_economics_R_packages/blob/master/README.md).
 These could be more formally triaged or vetted in some way, e.g. like the open-review carried-out by [rOpenSci](https://github.com/ropensci/software-review).
+Custom badges could be made, e.g. using [badger](https://github.com/GuangchuangYu/badger).
+D. Spiegelhalter talk about [trust in numbers](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/rssa.12302?hootPostID=5a6e1e25887bf28d62cf5dc15a2e0090) and we could adopt some of these ideas. In particular, he uses a 'star rating' for data to indicate its reliability.
 
 The package versions used in a model can be listed explicitly in a DESCRIPTION file and collected in `packrat` or `renv`.
 
